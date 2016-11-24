@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It displayed the lines with changes right next to each other, making it easy to spot the difference.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    New code can be tested without worrying about corrupting the code and not knowing how to undo changes. If errors are introduced in the new code, it would be easy to revert to a previous version. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+    Pros of manually choosing to commit: 
+    * creates new verison when you are ready
+    * allows 'just right' sizes of commits, rather than committing versions that are too small or too bag
+    * allows logical changes to be committed together
+
+    Cons:
+    * may not commit regularly enough, creating versions that have too many changes
+    * this may cause big problems trying to work out what went wrong when there are too many changes to compare
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Code often requires multiple files for a single project. These files are interlinked, meaning that a change in one file may have an impact on another file. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    * git log shows commits, starting with the most recent
+    * git diff will compare differences between two commits, using the commit id (git diff first-id second-id)
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If something breaks, can easily revert to previous version, and then work on new code to fix the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Version control in my programs!
