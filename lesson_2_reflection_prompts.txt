@@ -25,6 +25,8 @@ organized? How would branches help?
     * When creating a different version for a different purpose, such as an easy mode for beginners.
 
 How do the diagrams help you visualize the branch structure?
+    
+    By making a visual representation the of branch structure! It is easy to see the branch history and which commits are reachable from each branch. It also shows that git's history can be non-linear and have non-reachable commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
