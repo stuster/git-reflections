@@ -28,8 +28,17 @@ How do the diagrams help you visualize the branch structure?
     
     By making a visual representation the of branch structure! It is easy to see the branch history and which commits are reachable from each branch. It also shows that git's history can be non-linear and have non-reachable commits.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    Merging branches combines the code from both branches. It uses the last common ancestor to compare changes against and decide on which changes to include from both branches. 
+
+    It is represented in the diagram as a joining of branches, because that is exactly what it is!
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+    Pros of automatic merging:
+    * much faster than manual when dealing with large files of code
+    * can fairly easily pick up where changes were made, if the changes are not made in the same place.
+
+    Cons:
+    * Unable to determine which changes should be selected when code has been changed by versions in the same place.
